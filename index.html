@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rank Greetings</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="rank.js"></script>
+</head>
+<body>
+<header>
+    <h1> Air Force Ranks</h1>
+</header>
+
+    <form>
+
+        <input type = "text" name = "fname" id="fist-name">
+        <label for="fist-name"> First Name</label>
+        <br><br>
+
+        <input type = "text" name = "lname" id="last-name">
+        <label for="last-name"> Last Name</label>
+        <br><br>
+
+        <fieldset>
+            <legend>Choose rank</legend>
+
+
+            <input type="radio" name = "rank" id="captain" data-rank-name = "Capt.">
+            <label for="captain"> Captain </label>
+            <br><br>
+
+            <input type="radio" name = "rank" id="major" data-rank-name = "Maj.">
+            <label for="major"> Major </label>
+            <br><br>
+
+            <input type="radio" name = "rank" id="colonel" data-rank-name = "Lt. Col.">
+            <label for="colonel"> Lieutenant Colonel </label>
+
+        </fieldset>
+        <br><br>
+
+        <button>Display Rank</button>
+
+    </form>
+
+    <p id = "confirmation" >
+
+    </p>
+
+
+
+
+</body>
+</html>
